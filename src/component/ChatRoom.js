@@ -18,10 +18,14 @@ const ChatRoom = () => {
     }, [userData]);
 
     const connect =()=>{
-        let Sock = new SockJS('https://852d-2600-8800-2641-8800-3ced-5576-6491-2ff6.ngrok.io/ws');
+        let Sock = new SockJS('https://546e-2600-8800-2641-8800-3ced-5576-6491-2ff6.ngrok.io/ws');
         console.log("THIS IS THE SOCK _________:", Sock)
         stompClient = over(Sock);
-        stompClient.connect({},onConnected, onError);
+        stompClient.connect({
+            headers: {
+                'ngrok-skip-browser-warning': 'true'
+            }
+        },onConnected, onError);
     }
 
     const onConnected = () => {
