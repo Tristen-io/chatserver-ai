@@ -18,7 +18,7 @@ const ChatRoom = () => {
     }, [userData]);
 
     const connect =()=>{
-        let Sock = new SockJS('http://192.168.49.2:31632/ws');
+        let Sock = new SockJS('https://852d-2600-8800-2641-8800-3ced-5576-6491-2ff6.ngrok.io/ws');
         console.log("THIS IS THE SOCK _________:", Sock)
         stompClient = over(Sock);
         stompClient.connect({},onConnected, onError);
