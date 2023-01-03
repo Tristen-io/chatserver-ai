@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chatserver-ai/static/css/main.55475c69.css",
+    "main.js": "/chatserver-ai/static/js/main.fa2bf28a.js",
+    "index.html": "/chatserver-ai/index.html",
+    "main.55475c69.css.map": "/chatserver-ai/static/css/main.55475c69.css.map",
+    "main.fa2bf28a.js.map": "/chatserver-ai/static/js/main.fa2bf28a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55475c69.css",
+    "static/js/main.fa2bf28a.js"
+  ]
+}
