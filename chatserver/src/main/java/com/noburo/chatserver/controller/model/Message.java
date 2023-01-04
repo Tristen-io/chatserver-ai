@@ -1,17 +1,16 @@
 package com.noburo.chatserver.controller.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
+import java.util.Date;
 
+@NoArgsConstructor
+@AllArgsConstructor
 @Getter
 @Setter
-@AllArgsConstructor
 @ToString
 public class Message {
     private String senderName;
-    private String recieverName;
+    private String receiverName;
     private String message;
     private String date;
     private Status status;
