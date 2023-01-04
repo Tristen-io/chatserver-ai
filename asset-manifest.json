@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/chatserver-ai/static/css/main.55475c69.css",
-    "main.js": "/chatserver-ai/static/js/main.e27f3e20.js",
+    "main.js": "/chatserver-ai/static/js/main.d3d79359.js",
     "index.html": "/chatserver-ai/index.html",
     "main.55475c69.css.map": "/chatserver-ai/static/css/main.55475c69.css.map",
-    "main.e27f3e20.js.map": "/chatserver-ai/static/js/main.e27f3e20.js.map"
+    "main.d3d79359.js.map": "/chatserver-ai/static/js/main.d3d79359.js.map"
   },
   "entrypoints": [
     "static/css/main.55475c69.css",
-    "static/js/main.e27f3e20.js"
+    "static/js/main.d3d79359.js"
   ]
 }
