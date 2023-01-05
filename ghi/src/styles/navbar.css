@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Navbar brand (logo) */
+  .navbar .brand {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  /* Navbar actions (e.g. login, signup buttons) */
+  .navbar .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Navbar action button */
+  .navbar .actions button {
+    border: 0;
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  /* Navbar action button: hover state */
+  .navbar .actions button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
