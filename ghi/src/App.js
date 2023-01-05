@@ -6,6 +6,7 @@ import AiChat from './component/AiChat'
 const App = () => {
   return (
     <>
+    <NavBar/>
     <AiChat/>
     <ChatRoom/>
     </>
