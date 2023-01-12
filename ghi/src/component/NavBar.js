@@ -6,6 +6,7 @@ const NavBar = () => {
     { text: 'Home', href: '/' },
     { text: 'About', href: '/about' },
     { text: 'Contact', href: '/contact' },
+    
   ];
   const actions = [
     { text: 'Login', onClick: () => console.log('Login clicked') },

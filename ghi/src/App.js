@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
     <NavBar/>
-    <AiChat/>
+    {/* <AiChat/> */}
     <ChatRoom/>
     </>
   )
